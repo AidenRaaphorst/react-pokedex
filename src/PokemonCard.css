@@ -1,0 +1,24 @@
+.pokemon-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  width: 230px;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background: #ccc;
+}
+
+.pokemon-card button {
+  background-color: unset;
+}
+
+.pokemon-card button.checked {
+  background-color: #ffd804;;
+}
+
+.pokemon-card #sprite {
+  width: 200px;
+}

@@ -1,0 +1,12 @@
+.title {
+  margin-left: 20px;
+}
+
+.pokemon-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  /* background: #e8e8e8; */
+}
